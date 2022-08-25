@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="popup.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+    <table>
+        <tr>
+            <th>
+                <div id="part-image"></div>
+                <div id="part-table"></div>
+            </th>
+            <th>
+                <div id="it-url"></div>
+                <div id="it-key"></div>
+                <form id="control-row">
+                    <div id="it-parts"></div>
+                    <div id="it-locations"></div>
+                    <div>
+                        <label> Select Location </label>  
+                        <select id="selectLocations">  
+                        </select>      
+                    </div>
+                    <div>
+                        <label> Select category </label>  
+                        <select id="selectCategory">  
+                        </select>  
+                    </div>
+                    <div>
+                        <label> Select quantity </label>  
+                        <input type="number" id="selectQuantity"/>.
+                    </div>
+                    <label for="input">Domain:</label>
+                    <input type="text" id="input">
+                    <br>
+                    <button id="go">Add Stock</button>
+              </form>
+            </th>
+        </tr>
+    </table>
+  <span id="message" hidden></span>
+</body>
+</html>
